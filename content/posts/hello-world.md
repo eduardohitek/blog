@@ -6,4 +6,4 @@ tags: ["first-post"]
 categories: ["general"]
 ---
 
-Hello World! I would like to introduce yet another tech blog. =]
+**Hello World!** I would like to introduce yet another tech blog. =]
