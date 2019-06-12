@@ -1,4 +1,4 @@
-baseURL = "http://blog.eduardohitek.com/"
+baseURL = "https://blog.eduardohitek.com/"
 languageCode = "en-us"
 title = "Eduardo Hitek"
 theme = "solar-theme-hugo"
