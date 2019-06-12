@@ -2,3 +2,5 @@ baseURL = "https://blog.eduardohitek.com/"
 languageCode = "en-us"
 title = "Eduardo Hitek"
 theme = "solar-theme-hugo"
+disqusShortname = "blog-eduardohitek-com"
+
