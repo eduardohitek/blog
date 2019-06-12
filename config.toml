@@ -1,6 +1,16 @@
 baseURL = "https://blog.eduardohitek.com/"
 languageCode = "en-us"
 title = "Eduardo Hitek"
-theme = "solar-theme-hugo"
+theme = "m10c"
 disqusShortname = "blog-eduardohitek-com"
+
+[params]
+  author = "Eduardo Hitek"
+  description = "Software Developer."
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/eduardohitek"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/eduardohitek"
 
