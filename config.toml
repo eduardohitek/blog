@@ -14,4 +14,7 @@ googleAnalytics = "UA-142179101-1"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/eduardohitek"
+  [[params.social]]
+    name = "file"
+    url = "/EduardoHitek_CV_En.pdf"
 
