@@ -1,7 +1,7 @@
 baseURL = "https://blog.eduardohitek.com/"
 languageCode = "en-us"
 title = "Eduardo Hitek"
-theme = "m10c"
+theme = "hello-friend-ng"
 disqusShortname = "blog-eduardohitek-com"
 googleAnalytics = "UA-142179101-1"
 
@@ -15,6 +15,31 @@ googleAnalytics = "UA-142179101-1"
     name = "twitter"
     url = "https://twitter.com/eduardohitek"
   [[params.social]]
+    name = "dev"
+    url = "http://dev.to/eduardohitek"
+  [[params.social]]
     name = "file"
     url = "/EduardoHitek_CV_En.pdf"
 
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Eduardo Hitek"
+    subtitle = "Personal Site and Blog"
+    keywords = "software engineering, development, tutorials"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "eduardo hitek"
+      logoHomeLink = "/"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
