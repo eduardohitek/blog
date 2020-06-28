@@ -17,9 +17,9 @@ googleAnalytics = "UA-142179101-1"
   [[params.social]]
     name = "dev"
     url = "http://dev.to/eduardohitek"
-  [[params.social]]
-    name = "file"
-    url = "/EduardoHitek_CV_En.pdf"
+#  [[params.social]]
+#    name = "file"
+#    url = "/EduardoHitek_CV_En.pdf"
 
 [taxonomies]
     category = "blog"
