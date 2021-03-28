@@ -1,7 +1,7 @@
 ---
 title: "Fixing some small Issues with my enviroment - Part 1"
 date: 2021-01-17T20:00:00-03:00
-draft: false
+draft: true
 tags: ["macos", "fish", "vscode"]
 categories: ["general", "fixes", "config"]
 ---
