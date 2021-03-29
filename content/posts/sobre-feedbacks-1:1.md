@@ -11,7 +11,7 @@ Pensando assim, por que não aplicar isso também para as pessoas?
 
 As [reuniões](https://www.small-improvements.com/resources/1-on-1-meetings/) de [1:1](https://wavelength.asana.com/workstyle-what-is-a-1-1/) já estão entre nós por um bom tempo e podem garantir essa melhoria contínua entre as pessoas de uma equipe.
 
-Durante meu processo de seleção para trabalhar na [Trybe](https://betrybe.com), [Elton](https://www.twitter.com/eminetto), [Cairo](https://www.twitter.com/caironoleto) e [JD](https://www.twitter.com/jdanielnd) sempre ressaltaram a transparência como item do [Deck de Cultura](https://www2.slideshare.net/MatheusGoyas/trybe-deck-de-cultura-v3) da empresa e a importância do feedback honesto. E uma forma principal de obtenção disso é através das Reuniões 1:1 entre Líder e pessoa liderada.
+Durante meu processo de seleção para trabalhar na [Trybe](https://betrybe.com), conversei bastante com o [Elton](https://www.twitter.com/eminetto), [Cairo](https://www.twitter.com/caironoleto) e [JD](https://www.twitter.com/jdanielnd) e eles sempre ressaltaram a transparência como item do [Deck de Cultura](https://www2.slideshare.net/MatheusGoyas/trybe-deck-de-cultura-v3) da empresa e a importância do feedback honesto. E uma das principais formas de obtenção disso é através das Reuniões 1:1 entre Líder e pessoa liderada.
 
 Um **disclaimer**: Esse post não é um Manual ou Guia definitivo sobre Reuniões 1:1, mas sim minhas experiências durante os últimos meses e as formas como eu e meu [Líder](https://www.twitter.com/eminetto) estamos conduzindo esses eventos atualmente.
 
@@ -38,4 +38,4 @@ Pelo menos para mim é impossível lembrar dos problemas, feedbacks e todas as d
 
 Minha experiência com Reunião de 1:1 está sendo bem rica nesses últimos meses pois pude ver falhas e alguns pontos cegos que passaram despercebidos na minha Carreira. Sem falar que é mais fácil alcançar objetivos quando eles são claramente definidos e possivelmente mensurados a cada semana.
 
-Se você se interessou sobre esses aspectos de Transparência e Feedbacks contínuos, a Trybe está com diversas vagas abertas para Pessoas Desenvolvedoras, Pessoas Instrutoras e muito mais. Acesse [aqui](https://trybe.gupy.io/) para visualizar nossas oportunidades e venha fazer parte do nosso Time.
+Se você se interessou sobre esses aspectos de Transparência e Feedbacks contínuos, a [Trybe](https://betrybe.com) está com diversas vagas abertas para Pessoas Desenvolvedoras, Pessoas Instrutoras e muito mais. Acesse [aqui](https://trybe.gupy.io/) para visualizar nossas oportunidades e venha fazer parte do nosso Time.
