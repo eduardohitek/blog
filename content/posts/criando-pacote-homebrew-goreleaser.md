@@ -46,7 +46,7 @@ nfpms:
      - deb
      - rpm
 ```
-Para efetuar a instalação, basta chamar passar o nome do seu repositório como parâmetro para o homebrew:
+Para efetuar a instalação, basta passar o nome do seu repositório como parâmetro para o comando de instalação do homebrew:
 
 `brew install eduardohitek/tap/uuidg`
 
