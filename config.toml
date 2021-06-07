@@ -6,6 +6,7 @@ disqusShortname = "blog-eduardohitek-com"
 googleAnalytics = "UA-142179101-1"
 
 [params]
+  enableThemeToggle = true
   author = "Eduardo Hitek"
   description = "Software Developer."
   [[params.social]]
