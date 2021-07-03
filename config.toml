@@ -47,3 +47,7 @@ googleAnalytics = "UA-142179101-1"
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "english"
+    name       = "Blog English"
+    url        = "/posts-en"

@@ -38,7 +38,7 @@ Assuming your MongoDB installation is using the default setting, your method sho
         return client
     }
 
-To test the connection to the mongo, we can call a function called Ping, and check if return any error. Otherwise, out connection was successful.
+To test the connection to the mongo, we can call a function called Ping, and check if return any error. Otherwise, our connection was successful.
 
     func main() {
         c := GetClient()
@@ -52,28 +52,28 @@ To test the connection to the mongo, we can call a function called Ping, and che
 
 Now for the next examples I created a database called `civilact` and a collection `heroes` and add the followings documents:
 
-    { 
-        "_id" : ObjectId("5d0574824d9f7ff15e989171"), 
-        "name" : "Tony Stark", 
-        "alias" : "Iron Man", 
+    {
+        "_id" : ObjectId("5d0574824d9f7ff15e989171"),
+        "name" : "Tony Stark",
+        "alias" : "Iron Man",
         "signed" : true
     }
-    { 
-        "_id" : ObjectId("5d0574d74d9f7ff15e989172"), 
-        "name" : "Steve Rodgers", 
-        "alias" : "Captain America", 
+    {
+        "_id" : ObjectId("5d0574d74d9f7ff15e989172"),
+        "name" : "Steve Rodgers",
+        "alias" : "Captain America",
         "signed" : false
     }
-    { 
-        "_id" : ObjectId("5d0574e94d9f7ff15e989173"), 
-        "name" : "Vision", 
-        "alias" : "Vision", 
+    {
+        "_id" : ObjectId("5d0574e94d9f7ff15e989173"),
+        "name" : "Vision",
+        "alias" : "Vision",
         "signed" : true
     }
-    { 
-        "_id" : ObjectId("5d0575344d9f7ff15e989174"), 
-        "name" : "Clint Barton", 
-        "alias" : "Hawkeye", 
+    {
+        "_id" : ObjectId("5d0575344d9f7ff15e989174"),
+        "name" : "Clint Barton",
+        "alias" : "Hawkeye",
         "signed" : false
     }
 
