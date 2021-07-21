@@ -2,6 +2,7 @@
 title: "Você sabe o que significa 'Disagree and Commit' ?"
 date: 2021-07-11T19:53:50-03:00
 draft: false
+cover: "/images/disagree_commit/1.jpeg"
 tags: ["team", "agile"]
 categories: ["trybe"]
 ---

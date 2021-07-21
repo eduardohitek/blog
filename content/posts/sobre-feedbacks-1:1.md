@@ -2,6 +2,7 @@
 title: "Sobre feedbacks e Reuniões 1:1"
 date: 2021-03-28T00:00:00-03:00
 draft: false
+cover: "/images/1x1/1.jpeg"
 tags: ["growth", "agile"]
 categories: ["feedbacks", "agile", "trybe"]
 ---

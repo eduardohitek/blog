@@ -1,11 +1,13 @@
 baseURL = "https://eduardohitek.com/"
 languageCode = "en-us"
+paginate = 5
 title = "Eduardo Hitek"
-theme = "hello-friend-ng"
+theme = "hello-friend"
 disqusShortname = "blog-eduardohitek-com"
 googleAnalytics = "UA-142179101-1"
 
 [params]
+  defaultTheme = "light"
   enableThemeToggle = true
   author = "Eduardo Hitek"
   description = "Software Developer."
@@ -19,7 +21,6 @@ googleAnalytics = "UA-142179101-1"
     name = "dev"
     url = "http://dev.to/eduardohitek"
 
-  defaultTheme = "light"
 
 #  [[params.social]]
 #    name = "file"
@@ -37,6 +38,8 @@ googleAnalytics = "UA-142179101-1"
     keywords = "software engineering, development, tutorials"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
+	dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01-2006"
 
     [languages.en.params.logo]
       logoText = "eduardo hitek"
