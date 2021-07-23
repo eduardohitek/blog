@@ -208,7 +208,7 @@ For last, let's imagine that Hawkeye changed his mind and now wants to sign the 
     }
 
 That's it! The regular CRUD Operation was covered and our Heroes can decide their fate.
-All the code for these examples is available [here](http://github.com/eduardohitek/mongodb-go-example) and this tutorial was also posted at my [blog](http://blog.eduardohitek.com). Here is the Driver's oficial [repo](https://github.com/mongodb/mongo-go-driver) and oficial [docs](https://godoc.org/go.mongodb.org/mongo-driver/mongo)
+All the code for these examples is available [here](http://github.com/eduardohitek/mongodb-go-example) and this tutorial was also posted at my [blog](http://blog.eduardohitek.dev). Here is the Driver's oficial [repo](https://github.com/mongodb/mongo-go-driver) and oficial [docs](https://godoc.org/go.mongodb.org/mongo-driver/mongo)
 
 Feel free to get in touch for any question, suggestion or mistake that i made.
 
