@@ -4,6 +4,7 @@ date: 2021-07-17T07:37:06-03:00
 draft: false
 cover: "/images/portainer/3.png"
 coverAlt: "Tela inicial do Portainer com os containers existentes"
+coverCaption: "Tela inicial do Portainer com os containers existentes"
 tags: ["docker", "portainer", "tutorial"]
 categories: ["general", "docker", "tutorial"]
 ---
@@ -14,11 +15,11 @@ Através de sua interface gráfica é possível visualizar e editar seus Contain
 Basta executar os seguintes passos:
 
 1) Criar um `volume` para persistir as suas configurações:
-```
+```sh
 docker volume create portainer_data
 ```
 2) Rodar o comando para o docker criar o container e passar alguns parâmetros de configurações iniciais:
-```
+```sh
 docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
 ```
 Com esse comando estamos dizendo para o Docker rodar esse container em background, exportar a porta 9000, setar o nome para `portainer`, configurar a política de reinício para sempre reiniciar e linkar os volumes do container para volumes locais da sua máquina.

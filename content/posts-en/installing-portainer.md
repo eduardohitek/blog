@@ -2,6 +2,9 @@
 title: "Installing Portainer"
 date: 2021-07-17T10:36:55-03:00
 draft: false
+cover: "/images/portainer/3.png"
+coverAlt: "Portainer's initial page with the existing containers"
+coverCaption: "Portainer's initial page with the existing containers"
 tags: ["docker", "portainer", "tutorial", "english"]
 categories: ["general", "docker", "tutorial", "english"]
 ---

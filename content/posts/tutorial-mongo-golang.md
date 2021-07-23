@@ -3,6 +3,8 @@ title: "Tutorial com driver oficial para de Go para MongoDB"
 date: 2021-07-03T08:42:44-03:00
 draft: false
 cover: "/images/mongodb_golang/1.jpeg"
+coverAlt: "Logo do Golang + MongoDB"
+coverCaption: "Logo do Golang + MongoDB"
 tags: ["mongodb", "golang", "tutorial"]
 categories: ["general", "database", "golang", "tutorial"]
 ---
