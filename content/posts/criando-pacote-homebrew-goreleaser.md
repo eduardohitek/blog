@@ -1,6 +1,9 @@
 ---
 title: "Criando e disponibilizando uma aplicação no Homebrew, usando o GoReleaser"
 date: 2021-06-01T07:00:00-03:00
+cover: "/images/goreleaser/1.png"
+coverAlt: "Logo do goreleaser"
+coverCaption: "Logo do goreleaser"
 draft: false
 ---
 
