@@ -5,8 +5,8 @@ draft: false
 cover: "/images/go-benchmark/1.jpg"
 coverAlt: "Efetuando testes de benchmarking em Go"
 coverCaption: "Como saber se aquela função ou lib é mais performática ou não?"
-tags: []
-categories: []
+tags: ["golang", "tutorial", "testes"]
+categories: ["golang", "tutorial", "testes"]
 ---
 
 Teste de Benchmark em programação é o ato de comparar de forma eficiente a performance entre algoritmos, de forma a escolher qual abordagem a seguir em determinados cenários. Podemos aplicar também na hora de decidir quais bibliotecas externas ou frameworks e a se usar, além de avaliarmos se alguma refatoração vai trazer maléfico para nosso código.
