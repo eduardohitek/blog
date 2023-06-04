@@ -50,3 +50,7 @@ googleAnalytics = "UA-142179101-1"
     identifier = "english"
     name       = "Blog English"
     url        = "/posts-en"
+  [[menu.main]]
+    identifier = "talks"
+	name = "Talks"
+	url = "/talks"
