@@ -1,6 +1,6 @@
 ---
 title: "Diferenciais em uma entrevista técnica para uma vaga de Dev Júnior"
-date: 2023-06-14T01:11:19-03:00
+date: 2023-06-13T11:11:19-03:00
 draft: false
 cover: "/images/diferenciais-entrevista-tecnica/1.webp"
 coverAlt: "Um jovem de óculos conversando com 2 pessoas em um formato de entrevista de emprego"
