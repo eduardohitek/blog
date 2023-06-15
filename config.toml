@@ -5,6 +5,7 @@ title = "Eduardo Hitek"
 theme = "hello-friend"
 disqusShortname = "blog-eduardohitek-com"
 googleAnalytics = "UA-142179101-1"
+GoatCounter = "true"
 
 [params]
   defaultTheme = "light"
