@@ -2,7 +2,9 @@
 title: "Introducing brag-cli: Track Your Wins and Own Your Career"
 date: 2026-04-24T10:00:00-03:00
 draft: false
+description: "Introducing brag-cli: an open-source Go CLI that tracks professional achievements and generates AI-powered performance review narratives."
 cover: "images/2026-04-24-apresentando-brag-cli/1.png"
+images: ["images/2026-04-24-apresentando-brag-cli/1.png"]
 coverAlt: "Terminal showing brag-cli in action"
 coverCaption: "brag-cli - Track every win. Own your career."
 tags: ["cli", "career", "go", "golang", "productivity", "ai"]
