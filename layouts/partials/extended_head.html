@@ -1,3 +1,17 @@
+{{ with .Params.translationURL }}
+  {{ $currentURL := $.Permalink }}
+  {{ $translationURL := . | absURL }}
+  {{ $isPT := strings.HasPrefix $.RelPermalink "/posts/" }}
+  {{ if $isPT }}
+    <link rel="alternate" hreflang="pt-BR" href="{{ $currentURL }}">
+    <link rel="alternate" hreflang="en"    href="{{ $translationURL }}">
+    <link rel="alternate" hreflang="x-default" href="{{ $translationURL }}">
+  {{ else }}
+    <link rel="alternate" hreflang="en"    href="{{ $currentURL }}">
+    <link rel="alternate" hreflang="pt-BR" href="{{ $translationURL }}">
+    <link rel="alternate" hreflang="x-default" href="{{ $currentURL }}">
+  {{ end }}
+{{ end }}
 {{ if .IsPage }}
 <script type="application/ld+json">
 {

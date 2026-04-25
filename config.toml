@@ -17,6 +17,10 @@ enableRobotsTXT = true
   description = "Blog sobre Go, MongoDB, carreira em engenharia de software e ferramentas para devs."
   twitterCreator = "@eduardohitek"
   images = ["/img/android-chrome-512x512.png"]
+  showReadingTime = true
+  minuteReadingTime = "min read"
+  dateFormatSingle = "Jan 02, 2006"
+  dateFormatList   = "Jan 02, 2006"
   [[params.social]]
     name = "github"
     url = "https://github.com/eduardohitek"
@@ -40,8 +44,6 @@ enableRobotsTXT = true
     keywords = "software engineering, development, tutorials"
     # copyright = 'Eduardo Hitek'
     readOtherPosts = "Read other posts"
-	dateFormatSingle = "02-01-2006"
-    dateFormatList = "02-01-2006"
 
     [languages.en.params.logo]
       logoText = "eduardo hitek"

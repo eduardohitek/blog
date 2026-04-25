@@ -9,6 +9,7 @@ coverAlt: "Terminal showing brag-cli in action"
 coverCaption: "brag-cli - Track every win. Own your career."
 tags: ["cli", "career", "go", "golang", "productivity", "ai"]
 categories: ["golang", "career", "productivity"]
+translationURL: "/posts/2026-04-24-apresentando-brag-cli/"
 ---
 
 Performance review season arrives. Your manager asks for a summary of everything you delivered over the past six months. You open a blank document and freeze. You know you shipped meaningful work, but the details have blurred into the daily grind.

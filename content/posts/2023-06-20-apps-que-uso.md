@@ -9,6 +9,7 @@ coverAlt: "Ícones de alguns aplicativos"
 coverCaption: "Os apps que uso no dia a dia"
 tags: ["dicas", "apps"]
 categories: ["dicas", "apps"]
+translationURL: "/posts-en/2023-06-20-apps-that-i-use/"
 ---
 
 Gosto de ler posts sobre as ferramentas/apps que as pessoas usam no dia a dia, seja para trabalho ou pessoal. Sempre acabo descobrindo alguma ferramenta nova ou alguma funcionalidade que não conhecia. Por isso resolvi fazer um post com os apps que uso no dia a dia. A ideia é atualizar esse post a cada ano, para ver como as coisas mudam.

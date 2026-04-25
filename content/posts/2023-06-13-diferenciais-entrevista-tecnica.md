@@ -9,6 +9,7 @@ coverAlt: "Um jovem de óculos conversando com 2 pessoas em um formato de entrev
 coverCaption: "Como se destacar em uma entrevista técnica para uma vaga de Dev Júnior?"
 tags: ["dicas", "entrevista"]
 categories: ["dicas", "entrevista"]
+translationURL: "/posts-en/2023-06-13-highlights-technical-interview-junior-candidates/"
 ---
 
 ## Diferenciais em uma entrevista técnica para Pessoas Júnior

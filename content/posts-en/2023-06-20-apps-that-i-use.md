@@ -9,6 +9,7 @@ coverAlt: "Icons of some applications"
 coverCaption: "The apps I use every day"
 tags: ["tips", "apps"]
 categories: ["tips", "apps"]
+translationURL: "/posts/2023-06-20-apps-que-uso/"
 ---
 
 I enjoy reading posts about the tools/apps people use in their daily lives, whether for work or personal use. I always end up discovering new tools or functionalities that I wasn't aware of. That's why I decided to create a post about the apps I use every day. The idea is to update this post every year to see how things change.

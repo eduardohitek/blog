@@ -9,6 +9,7 @@ coverAlt: "How to stand out in a technical interview for a Junior Developer posi
 coverCaption: "How to stand out in a technical interview for a Junior Developer position?"
 tags: ["tips", "interview"]
 categories: ["tips", "interview"]
+translationURL: "/posts/2023-06-13-diferenciais-entrevista-tecnica/"
 ---
 
 ## Highlights in a Technical Interview for Junior Candidates

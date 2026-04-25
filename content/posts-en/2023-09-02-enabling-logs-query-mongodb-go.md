@@ -9,6 +9,7 @@ coverAlt: "Mongodb query logs snippet"
 coverCaption: "Mongodb query logs snippet"
 tags: ["mongodb", "go", "golang", "logs", "query"]
 categories: ["golang", "tutorial", "mongodb"]
+translationURL: "/posts/2023-09-02-habilitando-logs-query-mongodb-go/"
 ---
 
 One way to debug an application is through logs. They can be used to identify issues, understand the execution flow, and also monitor the application's behavior. Among their types, database query logs are very useful for understanding what is happening with queries and other write operations. In this post, I will show how to enable MongoDB query logs in the official Go driver.
