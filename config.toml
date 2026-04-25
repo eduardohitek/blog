@@ -10,6 +10,9 @@ enableRobotsTXT = true
 [pagination]
   pagerSize = 5
 
+[pagination]
+  pagerSize = 5
+
 [params]
   defaultTheme = "light"
   enableThemeToggle = true
