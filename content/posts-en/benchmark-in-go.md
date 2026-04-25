@@ -2,7 +2,9 @@
 title: "Performing Benchmark Tests in Go"
 date: 2021-07-31T21:02:04-03:00
 draft: false
+description: "Learn how to write and run benchmarks in Go using the testing package. Compare performance of different implementations with accurate results."
 cover: "/images/go-benchmark/1.jpg"
+images: ["/images/go-benchmark/1.jpg"]
 coverAlt: "Performing Benchmark Tests in Go"
 coverCaption: "How to check if this function is faster or not"
 tags: ["golang", "tutorial", "tests"]

@@ -2,7 +2,9 @@
 title: "Efefuando testes de benchmark Em Go"
 date: 2021-07-31T11:24:06-03:00
 draft: false
+description: "Aprenda a escrever e executar benchmarks em Go com o pacote testing. Compare a performance de diferentes implementações com resultados precisos."
 cover: "/images/go-benchmark/1.jpg"
+images: ["/images/go-benchmark/1.jpg"]
 coverAlt: "Efetuando testes de benchmarking em Go"
 coverCaption: "Como saber se aquela função ou lib é mais performática ou não?"
 tags: ["golang", "tutorial", "testes"]

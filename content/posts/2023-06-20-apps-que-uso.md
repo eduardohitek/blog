@@ -2,11 +2,14 @@
 title: "Lista de APPs que utilizo no dia a dia - Versão 2023"
 date: 2023-06-20T07:42:38-03:00
 draft: false
+description: "Os aplicativos que uso no dia a dia como desenvolvedor: ferramentas de produtividade, desenvolvimento, comunicação e organização pessoal."
 cover: "images/2023-06-20-apps-dia-a-dia/1.jpg"
+images: ["images/2023-06-20-apps-dia-a-dia/1.jpg"]
 coverAlt: "Ícones de alguns aplicativos"
 coverCaption: "Os apps que uso no dia a dia"
 tags: ["dicas", "apps"]
 categories: ["dicas", "apps"]
+translationURL: "/posts-en/2023-06-20-apps-that-i-use/"
 ---
 
 Gosto de ler posts sobre as ferramentas/apps que as pessoas usam no dia a dia, seja para trabalho ou pessoal. Sempre acabo descobrindo alguma ferramenta nova ou alguma funcionalidade que não conhecia. Por isso resolvi fazer um post com os apps que uso no dia a dia. A ideia é atualizar esse post a cada ano, para ver como as coisas mudam.

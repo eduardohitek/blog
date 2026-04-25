@@ -2,11 +2,14 @@
 title: "Apresentando o brag-cli: nunca mais esqueça suas conquistas profissionais"
 date: 2026-04-24T10:00:00-03:00
 draft: false
+description: "Apresentando o brag-cli: ferramenta open-source em Go para registrar conquistas profissionais e gerar relatórios de performance review com IA."
 cover: "images/2026-04-24-apresentando-brag-cli/1.png"
+images: ["images/2026-04-24-apresentando-brag-cli/1.png"]
 coverAlt: "Terminal mostrando o brag-cli em uso"
 coverCaption: "brag-cli - Track every win. Own your career."
 tags: ["cli", "carreira", "go", "golang", "produtividade", "ia"]
 categories: ["golang", "carreira", "produtividade"]
+translationURL: "/posts-en/2026-04-24-introducing-brag-cli/"
 ---
 
 Chegou a época de performance review. Seu gestor pede um resumo do que você entregou nos últimos seis meses. Você abre um documento em branco e... trava. Você sabe que fez muita coisa importante, mas os detalhes sumiram na correria do dia a dia.

@@ -2,11 +2,14 @@
 title: "Habilitando Logs Query no Mongodb utilizando Go"
 date: 2023-09-02T00:55:35-03:00
 draft: false
+description: "Como habilitar logs de query no driver oficial do MongoDB para Go. Ideal para debugar consultas e monitorar operações em aplicações Golang."
 cover: "images/2023-09-02-habilitando-logs-query-mongodb-go/1.png"
+images: ["images/2023-09-02-habilitando-logs-query-mongodb-go/1.png"]
 coverAlt: "Recorte de logs de query do MongoDB"
 coverCaption: "Recorte de logs de query do MongoDB"
 tags: ["mongodb", "go", "golang", "logs", "query"]
 categories: ["golang", "tutorial", "mongodb"]
+translationURL: "/posts-en/2023-09-02-enabling-logs-query-mongodb-go/"
 ---
 
 Uma das formas de debugar uma aplicação é através dos logs. Eles podem ser usados para identificar problemas, entender o fluxo de execução e também para monitorar o comportamento da aplicação. Dentre os seus tipos, os logs de query de banco de dados são muito úteis para entender o que está acontecendo com consultas e outras operações de escrita. Neste post vou mostrar como habilitar os logs de query do MongoDB no driver oficial para Go.

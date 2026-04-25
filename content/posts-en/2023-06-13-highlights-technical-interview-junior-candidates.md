@@ -2,11 +2,14 @@
 title: "Highlights in a Technical Interview for Junior Candidates"
 date: 2023-06-14T11:11:19-03:00
 draft: false
+description: "Practical tips for standing out in a technical interview for junior developer roles: what recruiters value beyond the code itself."
 cover: "/images/diferenciais-entrevista-tecnica/1.webp"
+images: ["/images/diferenciais-entrevista-tecnica/1.webp"]
 coverAlt: "How to stand out in a technical interview for a Junior Developer position?"
 coverCaption: "How to stand out in a technical interview for a Junior Developer position?"
 tags: ["tips", "interview"]
 categories: ["tips", "interview"]
+translationURL: "/posts/2023-06-13-diferenciais-entrevista-tecnica/"
 ---
 
 ## Highlights in a Technical Interview for Junior Candidates

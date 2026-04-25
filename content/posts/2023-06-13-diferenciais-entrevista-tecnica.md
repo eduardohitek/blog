@@ -2,11 +2,14 @@
 title: "Diferenciais em uma entrevista técnica para uma vaga de Dev Júnior"
 date: 2023-06-13T11:11:19-03:00
 draft: false
+description: "Dicas práticas para se destacar em uma entrevista técnica para dev júnior: o que os recrutadores valorizam além do código e do algoritmo."
 cover: "/images/diferenciais-entrevista-tecnica/1.webp"
+images: ["/images/diferenciais-entrevista-tecnica/1.webp"]
 coverAlt: "Um jovem de óculos conversando com 2 pessoas em um formato de entrevista de emprego"
 coverCaption: "Como se destacar em uma entrevista técnica para uma vaga de Dev Júnior?"
 tags: ["dicas", "entrevista"]
 categories: ["dicas", "entrevista"]
+translationURL: "/posts-en/2023-06-13-highlights-technical-interview-junior-candidates/"
 ---
 
 ## Diferenciais em uma entrevista técnica para Pessoas Júnior

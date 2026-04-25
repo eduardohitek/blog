@@ -2,7 +2,9 @@
 title: "Instalação do Portainer"
 date: 2021-07-17T07:37:06-03:00
 draft: false
+description: "Como instalar e configurar o Portainer para gerenciar containers Docker via interface web. Tutorial passo a passo para desenvolvedores e DevOps."
 cover: "/images/portainer/3.png"
+images: ["/images/portainer/3.png"]
 coverAlt: "Tela inicial do Portainer com os containers existentes"
 coverCaption: "Tela inicial do Portainer com os containers existentes"
 tags: ["docker", "portainer", "tutorial"]

@@ -2,11 +2,14 @@
 title: "List of apps I use every day - Version 2023"
 date: 2023-06-20T07:42:38-03:00
 draft: false
+description: "The apps I use daily as a software developer: productivity tools, communication, development environment, and personal organization."
 cover: "images/2023-06-20-apps-dia-a-dia/1.jpg"
+images: ["images/2023-06-20-apps-dia-a-dia/1.jpg"]
 coverAlt: "Icons of some applications"
 coverCaption: "The apps I use every day"
 tags: ["tips", "apps"]
 categories: ["tips", "apps"]
+translationURL: "/posts/2023-06-20-apps-que-uso/"
 ---
 
 I enjoy reading posts about the tools/apps people use in their daily lives, whether for work or personal use. I always end up discovering new tools or functionalities that I wasn't aware of. That's why I decided to create a post about the apps I use every day. The idea is to update this post every year to see how things change.
