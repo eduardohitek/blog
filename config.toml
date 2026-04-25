@@ -1,11 +1,13 @@
 baseURL = "https://eduardohitek.dev/"
 languageCode = "en-us"
-paginate = 5
 title = "Eduardo Hitek"
 theme = "hello-friend"
 disqusShortname = "blog-eduardohitek-com"
 googleAnalytics = "UA-142179101-1"
 GoatCounter = "true"
+
+[pagination]
+  pagerSize = 5
 
 [params]
   defaultTheme = "light"
