@@ -5,6 +5,8 @@ cover: "/images/goreleaser/1.png"
 coverAlt: "Logo do goreleaser"
 coverCaption: "Logo do goreleaser"
 draft: false
+description: "Como criar e publicar seu próprio pacote no Homebrew com GoReleaser. Automatize a distribuição de binários Go no macOS de forma simples."
+images: ["/images/goreleaser/1.png"]
 ---
 
 O [homebrew](https://brew.sh/index_pt-br) é um dos principais Gerenciadores de pacotes para macOS, que através da linha de comando te permite instalar centenas de aplicativos de forma fácil e prática. Além disso possui ferramentas para sempre atualizá-lo quando necessário. Por ser um projeto Open Source, ele te possibilita a criar sua própria [Formula](https://docs.brew.sh/Formula-Cookbook) e assim disponibilizar suas aplicações e utilitários. Vou mostrar a seguir como fazer utilizando o [GoReleaser](https://github.com/goreleaser/goreleaser).

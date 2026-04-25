@@ -2,6 +2,7 @@
 title: "Yet Another MongoDB Golang Tutorial"
 date: 2019-06-15T08:42:44-03:00
 draft: false
+description: "A complete MongoDB tutorial with Go using the official driver. Learn to connect, insert, query, and manipulate data in MongoDB with Golang."
 tags: ["mongodb", "golang", "tutorial"]
 categories: ["general", "database", "golang", "tutorial"]
 ---

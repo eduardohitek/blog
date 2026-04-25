@@ -2,6 +2,7 @@
 title: "Backup e restore de Banco de dados no Heroku"
 date: 2021-04-06T13:21:42-03:00
 draft: false
+description: "Aprenda a fazer backup e restore de banco de dados no Heroku usando a CLI. Guia prático para desenvolvedores com PostgreSQL no Heroku."
 ---
 
 ```

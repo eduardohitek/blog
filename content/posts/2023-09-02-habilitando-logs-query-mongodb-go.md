@@ -2,7 +2,9 @@
 title: "Habilitando Logs Query no Mongodb utilizando Go"
 date: 2023-09-02T00:55:35-03:00
 draft: false
+description: "Como habilitar logs de query no driver oficial do MongoDB para Go. Ideal para debugar consultas e monitorar operações em aplicações Golang."
 cover: "images/2023-09-02-habilitando-logs-query-mongodb-go/1.png"
+images: ["images/2023-09-02-habilitando-logs-query-mongodb-go/1.png"]
 coverAlt: "Recorte de logs de query do MongoDB"
 coverCaption: "Recorte de logs de query do MongoDB"
 tags: ["mongodb", "go", "golang", "logs", "query"]

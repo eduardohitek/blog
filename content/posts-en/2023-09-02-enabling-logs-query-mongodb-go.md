@@ -2,7 +2,9 @@
 title: "Enabling Logs Query in Mongodb using Go"
 date: 2023-09-02T00:55:35-03:00
 draft: false
+description: "Learn how to enable and customize query logs in the official MongoDB Go driver. Great for debugging queries in Golang applications."
 cover: "images/2023-09-02-habilitando-logs-query-mongodb-go/1.png"
+images: ["images/2023-09-02-habilitando-logs-query-mongodb-go/1.png"]
 coverAlt: "Mongodb query logs snippet"
 coverCaption: "Mongodb query logs snippet"
 tags: ["mongodb", "go", "golang", "logs", "query"]

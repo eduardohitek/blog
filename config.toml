@@ -1,17 +1,22 @@
 baseURL = "https://eduardohitek.dev/"
 languageCode = "en-us"
-paginate = 5
 title = "Eduardo Hitek"
 theme = "hello-friend"
 disqusShortname = "blog-eduardohitek-com"
 googleAnalytics = "UA-142179101-1"
 GoatCounter = "true"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 5
 
 [params]
   defaultTheme = "light"
   enableThemeToggle = true
   author = "Eduardo Hitek"
-  description = "Software Developer."
+  description = "Blog sobre Go, MongoDB, carreira em engenharia de software e ferramentas para devs."
+  twitterCreator = "@eduardohitek"
+  images = ["/img/android-chrome-512x512.png"]
   [[params.social]]
     name = "github"
     url = "https://github.com/eduardohitek"

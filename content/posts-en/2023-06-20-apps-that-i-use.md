@@ -2,7 +2,9 @@
 title: "List of apps I use every day - Version 2023"
 date: 2023-06-20T07:42:38-03:00
 draft: false
+description: "The apps I use daily as a software developer: productivity tools, communication, development environment, and personal organization."
 cover: "images/2023-06-20-apps-dia-a-dia/1.jpg"
+images: ["images/2023-06-20-apps-dia-a-dia/1.jpg"]
 coverAlt: "Icons of some applications"
 coverCaption: "The apps I use every day"
 tags: ["tips", "apps"]

@@ -2,7 +2,9 @@
 title: "Você sabe o que significa 'Disagree and Commit' ?"
 date: 2021-07-11T19:53:50-03:00
 draft: false
+description: "O que significa Disagree and Commit? Saiba como aplicar esse princípio para tomar decisões em equipe de forma mais eficiente e transparente."
 cover: "/images/disagree_commit/1.jpeg"
+images: ["/images/disagree_commit/1.jpeg"]
 coverAlt: "Várias pessoas no trabalho escuntando o que uma está falando"
 coverCaption: "Vamos tentar por esse caminho?"
 tags: ["team", "agile"]
