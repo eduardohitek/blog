@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+<style>.t{fill:#0F110F}.g{fill:#FFB23F}@media (prefers-color-scheme:light){.t{fill:#ECE6D8}.g{fill:#9A5200}}</style>
+<path class="t" d="M2 0h12v1h-12zM1 1h14v1h-14zM0 2h16v1h-16zM0 3h16v1h-16zM0 4h16v1h-16zM0 5h16v1h-16zM0 6h16v1h-16zM0 7h16v1h-16zM0 8h16v1h-16zM0 9h16v1h-16zM0 10h16v1h-16zM0 11h16v1h-16zM0 12h16v1h-16zM0 13h16v1h-16zM1 14h14v1h-14zM2 15h12v1h-12z"/>
+<path class="g" d="M3 4h2v1h-2zM4 5h2v1h-2zM5 6h2v1h-2zM6 7h2v1h-2zM5 8h2v1h-2zM4 9h2v1h-2zM9 9h5v1h-5zM3 10h2v1h-2zM9 10h5v1h-5z"/>
+</svg>
