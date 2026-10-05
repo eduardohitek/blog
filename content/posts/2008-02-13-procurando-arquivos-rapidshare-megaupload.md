@@ -9,11 +9,11 @@ tags: ["dicas", "tutoriais", "posts_antigos"]
 categories: ["dicas", "tutoriais", "posts_antigos"]
 ---
 
-O [Rapidshare][def] é um serviço gratuíto de hospedagem de arquivos. Ele armazena arquivos por upload, ou seja, pode-se enviar arquivos para o site e distribuí-los para outros usuários - basta enviar o link a eles.
+O [Rapidshare][def] é um serviço gratuito de hospedagem de arquivos. Ele armazena arquivos por upload, ou seja, pode-se enviar arquivos para o site e distribuí-los para outros usuários - basta enviar o link a eles.
 
 Um dos grandes problemas do Rapidshare, é que ele não provém um serviço de busca para os arquivos lá hospedados. Mas isso não significa que você não possa fazer pesquisas dos mesmos.
 
-Utilizando um pequeno site de busca chamado Google, você pode utilizar algumas dicas(ou gambiaras) de pesquisas para achar aquela mp3 ou aquele vídeo que você tanto queria.
+Utilizando um pequeno site de busca chamado Google, você pode utilizar algumas dicas(ou gambiarras) de pesquisas para achar aquela mp3 ou aquele vídeo que você tanto queria.
 
 **Para pesquisar ebooks e documentos em PDF digite:**
 
@@ -34,6 +34,6 @@ Utilizando um pequeno site de busca chamado Google, você pode utilizar algumas 
 
 Para pesquisar no Megaupload, basta trocar rapidshare por megaupload.com.
 
-Espero que seja útil para vocês, Abraço e até a proxima.
+Espero que seja útil para vocês, Abraço e até a próxima.
 
 [def]: http://rapidshare.com/

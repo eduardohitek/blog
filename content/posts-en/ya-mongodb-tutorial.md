@@ -3,11 +3,12 @@ title: "Yet Another MongoDB Golang Tutorial"
 date: 2019-06-15T08:42:44-03:00
 draft: false
 description: "A complete MongoDB tutorial with Go using the official driver. Learn to connect, insert, query, and manipulate data in MongoDB with Golang."
+translationURL: "/posts/2021-07-03-tutorial-mongo-golang/"
 tags: ["mongodb", "golang", "tutorial"]
 categories: ["general", "database", "golang", "tutorial"]
 ---
 
-After years relying on Community drivers like [mgo](https://github.com/go-mgo/mgo) and [globalsign/mgo](https://github.com/globalsign/mgo), last year MongoDB [announced](https://engineering.mongodb.com/post/considering-the-community-effects-of-introducing-an-official-golang-mongodb-driver) they were building it’s own solution. Last March they [released](https://www.mongodb.com/blog/post/official-mongodb-go-driver-now-ga-and-ready-for-production) the version 1.0.0, so let’s see how to make some normal operations using the Oficial driver.
+After years relying on Community drivers like [mgo](https://github.com/go-mgo/mgo) and [globalsign/mgo](https://github.com/globalsign/mgo), last year MongoDB [announced](https://engineering.mongodb.com/post/considering-the-community-effects-of-introducing-an-official-golang-mongodb-driver) they were building its own solution. Last March they [released](https://www.mongodb.com/blog/post/official-mongodb-go-driver-now-ga-and-ready-for-production) the version 1.0.0, so let’s see how to make some normal operations using the official driver.
 
 First of all, you need to download the driver using go get.
 
@@ -86,7 +87,7 @@ To work with these documents, would be better if we create a struct that represe
         Signed bool   `json:"signed"`
     }
 
-Now let's create a Method that will return all Heroes expecting 2 parameters: MongoDB Client and a bson.M that represents a filter. Is this filter is empty, the method will return all documents.
+Now let's create a Method that will return all Heroes expecting 2 parameters: MongoDB Client and a bson.M that represents a filter. If this filter is empty, the method will return all documents.
 
     import (
         "context"
@@ -119,7 +120,7 @@ Now let's create a Method that will return all Heroes expecting 2 parameters: Mo
 The breakdown is:
 
 1. Create a `collection` that represents the collection in the database;
-2. Ask the `collection` to return a cursor of with the elements based oh the filter (in this case the filter is empty, so will return all elements);
+2. Ask the `collection` to return a cursor of with the elements based on the filter (in this case the filter is empty, so will return all elements);
 3. Iterate this cursor and Decode each document to a Hero type;
 4. Append the Hero decoded in the `heroes` array.
 
@@ -135,7 +136,7 @@ If we run inside the main function, our return will be:
     2019/06/15 21:07:00 Vision Vision true
     2019/06/15 21:07:00 Clint Barton Hawkeye false
 
-To retrieve just the Heroes whom signed the [Sokovia Accords](https://marvelcinematicuniverse.fandom.com/wiki/Sokovia_Accords), we just need to change the filter.
+To retrieve just the Heroes who signed the [Sokovia Accords](https://marvelcinematicuniverse.fandom.com/wiki/Sokovia_Accords), we just need to change the filter.
 
     heroes := ReturnAllHeroes(c, bson.M{"signed": true})
 
@@ -170,7 +171,7 @@ Now, to increase our collection of Heroes and insert, for example Doctor Strange
         return insertResult.InsertedID
     }
 
-That's how we method will be used and checked by our previous method `ReturnOneHero`:
+That's how the method will be used and checked by our previous method `ReturnOneHero`:
 
     hero = Hero{Name: "Stephen Strange", Alias: "Doctor Strange", Signed: true}
     insertedID := InsertNewHero(c, hero)
@@ -196,7 +197,7 @@ And that's how we check:
     hero = ReturnOneHero(c, bson.M{"alias": "Doctor Strange"})
     log.Println("Is Hero empty?", hero == Hero{ })
 
-For last, let's imagine that Hawkeye changed his mind and now wants to sign the Accords. So let's make de `UpdateHero` method.
+For last, let's imagine that Hawkeye changed his mind and now wants to sign the Accords. So let's make the `UpdateHero` method.
 
     func UpdateHero(client *mongo.Client, updatedData bson.M, filter bson.M) int64 {
         collection := client.Database("civilact").Collection("heroes")
@@ -209,7 +210,7 @@ For last, let's imagine that Hawkeye changed his mind and now wants to sign the 
     }
 
 That's it! The regular CRUD Operation was covered and our Heroes can decide their fate.
-All the code for these examples is available [here](http://github.com/eduardohitek/mongodb-go-example) and this tutorial was also posted at my [blog](http://blog.eduardohitek.dev). Here is the Driver's oficial [repo](https://github.com/mongodb/mongo-go-driver) and oficial [docs](https://godoc.org/go.mongodb.org/mongo-driver/mongo)
+All the code for these examples is available [here](https://github.com/eduardohitek/mongodb-go-example) and this tutorial was also posted at my [blog](https://eduardohitek.dev/posts/2021-07-03-tutorial-mongo-golang/) (in Portuguese). Here is the driver's official [repo](https://github.com/mongodb/mongo-go-driver) and official [docs](https://pkg.go.dev/go.mongodb.org/mongo-driver/mongo)
 
-Feel free to get in touch for any question, suggestion or mistake that i made.
+Feel free to get in touch for any question, suggestion or mistake that I made.
 

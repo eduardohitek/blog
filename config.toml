@@ -1,9 +1,8 @@
 baseURL = "https://eduardohitek.dev/"
-languageCode = "en-us"
+languageCode = "pt-BR"
 title = "Eduardo Hitek"
 theme = "hitek"
 disqusShortname = "blog-eduardohitek-com"
-googleAnalytics = "UA-142179101-1"
 GoatCounter = "true"
 enableRobotsTXT = true
 
@@ -31,7 +30,7 @@ enableRobotsTXT = true
     url = "https://twitter.com/eduardohitek"
   [[params.social]]
     name = "dev"
-    url = "http://dev.to/eduardohitek"
+    url = "https://dev.to/eduardohitek"
 
 
 [markup.highlight]
@@ -40,9 +39,7 @@ enableRobotsTXT = true
   guessSyntax = false
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+    tag = "tags"
 
 [languages]
   [languages.en]

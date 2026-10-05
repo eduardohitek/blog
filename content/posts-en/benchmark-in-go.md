@@ -7,6 +7,7 @@ cover: "/images/go-benchmark/1.jpg"
 images: ["/images/go-benchmark/1.jpg"]
 coverAlt: "Performing Benchmark Tests in Go"
 coverCaption: "How to check if this function is faster or not"
+translationURL: "/posts/2021-07-31-benchmark-em-go/"
 tags: ["golang", "tutorial", "tests"]
 categories: ["golang", "tutorial", "tests"]
 ---
@@ -53,7 +54,7 @@ func palindromeFromEnd(str string) bool {
    return true
 }
 ```
-1) **palindromeFromMiddle**: runs from the middle characters to the beginning/end of the string.
+3) **palindromeFromMiddle**: runs from the middle characters to the beginning/end of the string.
 ```
 func palindromeFromMiddle(str string) bool {
    runes := []rune(str)
@@ -112,7 +113,7 @@ ok github.com/eduardohitek/go-benchmark-example 4.563s
 
 Following the argument we informed, each benchmark function is executed for 1 second and we have 2 pieces of information for each: Number of executions and average time of each execution. For this example of a non-palindromic word, and when the difference was between the 1st and the last letter, the **BenchmarkPalindromeFromEnd_Banana** was more performant because it had a lower average time per operation.
 
-In the next example we use a word major palindrome (*nomelgibsonisacasinosbiglemon*):
+In the next example we use a longer palindrome (*nomelgibsonisacasinosbiglemon*):
 ```
 ~/dev/eduardohitek/go-benchmark-example main*
 ❯ go test -bench=. -benchtime=1s

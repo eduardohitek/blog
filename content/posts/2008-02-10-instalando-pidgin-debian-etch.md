@@ -11,7 +11,7 @@ categories: ["tutorial", "linux", "debian"]
 
 [Pidgin][link6] (conhecido anteriormente como Gaim) é um [mensageiro instantâneo][link1] multi-plataforma, um programa [client side][link2] que suporta vários protocolos. É um [programa livre][link3] disponível sob a licença [GNU General Public License][link4].
 
-Hoje em dia ele é uma das melhores alternativas de mensageiro instantâneo para Linux. Infelizmente não é disponibilizado um pacote compilado para instalação no Debian Etch, por isso devemos baixar o Código Fonte apartir do site e compila-lo para sua versão do debian.
+Hoje em dia ele é uma das melhores alternativas de mensageiro instantâneo para Linux. Infelizmente não é disponibilizado um pacote compilado para instalação no Debian Etch, por isso devemos baixar o Código Fonte a partir do site e compilá-lo para sua versão do debian.
 
 Primeiro passo é instalar as dependências para a compilação do Pidgin.
 Digite como sudo no terminal:
@@ -44,11 +44,11 @@ make install
 
 Após isso é só procurar o Pidgin no seu menu de Aplicações - Internet - Mensageiro de Internet Pidgin.
 
-Até o Proximo Tutorial.
+Até o Próximo Tutorial.
 
-[link1]:http://pt.wikipedia.org/wiki/Mensageiro_instant%C3%A2neo
-[link2]:http://pt.wikipedia.org/wiki/Client_side
-[link3]:http://pt.wikipedia.org/wiki/Programa_livre
-[link4]:http://pt.wikipedia.org/wiki/GNU_General_Public_License
-[link5]:www.pidgin.im/download
-[link6]:www.pidgin.im
+[link1]:https://pt.wikipedia.org/wiki/Mensageiro_instant%C3%A2neo
+[link2]:https://pt.wikipedia.org/wiki/Client_side
+[link3]:https://pt.wikipedia.org/wiki/Programa_livre
+[link4]:https://pt.wikipedia.org/wiki/GNU_General_Public_License
+[link5]:https://pidgin.im/install/
+[link6]:https://pidgin.im/

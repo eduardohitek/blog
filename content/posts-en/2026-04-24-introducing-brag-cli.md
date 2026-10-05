@@ -3,8 +3,8 @@ title: "Introducing brag-cli: Track Your Wins and Own Your Career"
 date: 2026-04-24T10:00:00-03:00
 draft: false
 description: "Introducing brag-cli: an open-source Go CLI that tracks professional achievements and generates AI-powered performance review narratives."
-cover: "images/2026-04-24-apresentando-brag-cli/1.png"
-images: ["images/2026-04-24-apresentando-brag-cli/1.png"]
+cover: "images/2026-04-24-apresentando-brag-cli/1.jpg"
+images: ["images/2026-04-24-apresentando-brag-cli/1.jpg"]
 coverAlt: "Terminal showing brag-cli in action"
 coverCaption: "brag-cli - Track every win. Own your career."
 tags: ["cli", "career", "go", "golang", "productivity", "ai"]
@@ -14,7 +14,7 @@ translationURL: "/posts/2026-04-24-apresentando-brag-cli/"
 
 Performance review season arrives. Your manager asks for a summary of everything you delivered over the past six months. You open a blank document and freeze. You know you shipped meaningful work, but the details have blurred into the daily grind.
 
-This problem is so widespread it has a name. Engineering manager [Julia Evans](https://jvns.ca/blog/brag-documents/) and Principal Engineer [Elton Minetto](https://eltonminetto.dev/post/2022-04-14-brag-document/) popularized the concept of a **brag document** — a running record of your professional accomplishments. The catch? Keeping it up to date manually is tedious, so most people don't.
+This problem is so widespread it has a name. [Julia Evans](https://jvns.ca/blog/brag-documents/) and Principal Engineer [Elton Minetto](https://eltonminetto.dev/post/2022-04-14-brag-document/) popularized the concept of a **brag document** — a running record of your professional accomplishments. The catch? Keeping it up to date manually is tedious, so most people don't.
 
 That's the problem **[brag-cli](https://github.com/eduardohitek/brag-cli)** is built to solve: an open-source command-line tool that automates the entire process from capturing achievements to generating performance review narratives.
 

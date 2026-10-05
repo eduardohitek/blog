@@ -14,7 +14,7 @@ translationURL: "/posts-en/2023-09-02-enabling-logs-query-mongodb-go/"
 
 Uma das formas de debugar uma aplicação é através dos logs. Eles podem ser usados para identificar problemas, entender o fluxo de execução e também para monitorar o comportamento da aplicação. Dentre os seus tipos, os logs de query de banco de dados são muito úteis para entender o que está acontecendo com consultas e outras operações de escrita. Neste post vou mostrar como habilitar os logs de query do MongoDB no driver oficial para Go.
 
-Por padrão, os logs no driver oficial do MongoDB para Go são desabilitados. Para habilitá-los, basta usar implementar o seu próprio `CommandMonitor` e setá-lo na configuração do `ClientOptions`.
+Por padrão, os logs no driver oficial do MongoDB para Go são desabilitados. Para habilitá-los, basta implementar o seu próprio `CommandMonitor` e setá-lo na configuração do `ClientOptions`.
 
 Sempre que trabalho com conexão de banco de dados, gosto de criar uma struct que serve para conter as informações necessárias para a conexão. Nesse caso, vou criar uma struct chamada `MongoConfig`.
 
@@ -27,7 +27,7 @@ type MongoConfig struct {
 }
 ```
 
-Após isso, eu implemento uma função `createMongoClient` chamada que recebe essa struct de Configuração e retorna um `*mongo.Client`. A vantagem de passar as configurações via struct é caso você queira adicionar outros parâmetros como `ConnectionTimeout` ou `MaxPoolSize` por exemplo, você não precisa alterar a assinatura da função de conexão.
+Após isso, eu implemento uma função chamada `createMongoClient` que recebe essa struct de Configuração e retorna um `*mongo.Client`. A vantagem de passar as configurações via struct é caso você queira adicionar outros parâmetros como `ConnectionTimeout` ou `MaxPoolSize` por exemplo, você não precisa alterar a assinatura da função de conexão.
 
 ```go
 func createMongoClient(cfg MongoConfig) (*mongo.Client, error) {

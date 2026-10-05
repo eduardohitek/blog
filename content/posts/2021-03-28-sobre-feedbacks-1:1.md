@@ -3,6 +3,7 @@ title: "Sobre feedbacks e Reuniões 1:1"
 date: 2021-03-28T00:00:00-03:00
 draft: false
 cover: "/images/1x1/1.jpeg"
+coverAlt: "Duas pessoas conversando em uma reunião 1:1"
 tags: ["growth", "agile"]
 categories: ["feedbacks", "agile", "trybe"]
 ---
@@ -16,13 +17,13 @@ Durante meu processo de seleção para trabalhar na [Trybe](https://betrybe.com)
 
 Um **disclaimer**: Esse post não é um Manual ou Guia definitivo sobre Reuniões 1:1, mas sim minhas experiências durante os últimos meses e as formas como eu e meu [Líder](https://www.twitter.com/eminetto) estamos conduzindo esses eventos atualmente.
 
-Não existe uma definição em relação a duração ou periodicidade dessas reuniões, algumas pessoas preferem semanais mais curtas ou quinzenais mais longas, isso vai depender  bastante da Liderança e pessoa liderada. Eu gosto do modelo semanal e com 30 minutos de duração pelos seguintes motivos:
+Não existe uma definição em relação a duração ou periodicidade dessas reuniões, algumas pessoas preferem semanais mais curtas ou quinzenais mais longas, isso vai depender bastante da Liderança e pessoa liderada. Eu gosto do modelo semanal e com 30 minutos de duração pelos seguintes motivos:
 1. O período de 1 semana me parece um tempo razoável para análise do trabalho e exercitar o que foi discutido/definido na 1:1 anterior.
 
 1. 30 minutos até agora está sendo uma duração sem problemas. O que precisamos conversar cabe dentro desse tempo, mas como todo processo iterativo, estamos analisando semana a semana e podemos mudar assim que acharmos necessário.
 
 
-Sobre o conteúdo da Reunião, também não existe um Manual definitivo sobre quais pontos se falar e qual ordem, porém criamos um modelo que tem que se adequado bastante e que resume bem como conduzimos as Reuniões:
+Sobre o conteúdo da Reunião, também não existe um Manual definitivo sobre quais pontos se falar e qual ordem, porém criamos um modelo que tem se adequado bastante e que resume bem como conduzimos as Reuniões:
 
 * **Carreira**: Aqui falamos sobre alinhamento dos seguintes aspectos: *Quais os meus planos para cargos, carreira e responsabilidades?* *O que meu Líder pode me ajudar a alcançar esses planos?* *Esses planos estão alinhados com os planos da Empresa?* Esse tópico é muito importante pois garante que eu e a empresa estejamos alinhados a médio e longo prazo e quais ações eu e minha Liderança precisamos tomar para meu sucesso profissional.
 
@@ -31,9 +32,9 @@ Sobre o conteúdo da Reunião, também não existe um Manual definitivo sobre qu
 * **Mentoria**: Um espaço para troca de experiências sobre carreira, leituras e outras coisas. Provavelmente a sua Liderança já passou por poucas e boas durante sua carreira, então aqui é hora de pedir sugestões e conselhos para o seu dia a dia. Lembre-se que no futuro você pode estar na posição de dar esses conselhos.
 * **Saídas/Ações**: No final da conversa é feito uma análise do que pode ser feito para sanar algum problema, ou algo que precisa ser melhorado em prol da sua carreira. Essa análise pode ou não gerar algum item a ser executado na próxima semana e que vai ser revisado na próxima reunião.
 
-Um ponto bem importante e que tem ajudado na melhoria contínua é o fato de mantermos um registro de alguns pontos chaves discutidos nas Reuniões, para que possamos olhar para trás e medir a melhoria e se alguma mudança realmente surgiu o efeito esperado.
+Um ponto bem importante e que tem ajudado na melhoria contínua é o fato de mantermos um registro de alguns pontos chaves discutidos nas Reuniões, para que possamos olhar para trás e medir a melhoria e se alguma mudança realmente surtiu o efeito esperado.
 
-Para o sucesso de uma 1:1 é necessário a  honestidade dos participantes da Reunião para durante a mesma. Lembrando que o objetivo da reunião é uma análise do trabalho feito, das adversidades enfrentadas e um momento para transparência e melhoria de ambos.
+Para o sucesso de uma 1:1 é necessária a honestidade dos participantes da Reunião para durante a mesma. Lembrando que o objetivo da reunião é uma análise do trabalho feito, das adversidades enfrentadas e um momento para transparência e melhoria de ambos.
 
 Pelo menos para mim é impossível lembrar dos problemas, feedbacks e todas as dúvidas que tenho durante a semana, então eu uso o auxílio de anotações dos pontos que acho relevante levar para a 1:1. E quando eu julgo que é algum ponto urgente e que precisa ser tratado logo, tenho total abertura para conversar antes do dia designado da Reunião. Quanto mais rápido o feedback, mais rápida será a ação.
 

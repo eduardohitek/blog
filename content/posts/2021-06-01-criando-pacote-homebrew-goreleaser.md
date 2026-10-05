@@ -43,7 +43,7 @@ brews:
 nfpms:
  - homepage: https://github.com/eduardohitek/uuidg
    description: Generates an UUID.
-   maintainer: Eduardo Hitek <eduardohitek@gmail.com.com>
+   maintainer: Eduardo Hitek <eduardohitek@gmail.com>
    license: MIT
    vendor: HTK Solutions
    formats:
