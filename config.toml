@@ -1,7 +1,7 @@
 baseURL = "https://eduardohitek.dev/"
 languageCode = "en-us"
 title = "Eduardo Hitek"
-theme = "hello-friend"
+theme = "hitek"
 disqusShortname = "blog-eduardohitek-com"
 googleAnalytics = "UA-142179101-1"
 GoatCounter = "true"
@@ -15,6 +15,8 @@ enableRobotsTXT = true
   enableThemeToggle = true
   author = "Eduardo Hitek"
   description = "Blog sobre Go, MongoDB, carreira em engenharia de software e ferramentas para devs."
+  heroTitle = "Escrevo sobre Go, MongoDB e a vida de quem constrói backend desde 2006."
+  heroText = "Senior Software Engineer em Brasília. Tutoriais, ferramentas e notas sobre carreira em engenharia de software, em português e inglês."
   twitterCreator = "@eduardohitek"
   images = ["/img/android-chrome-512x512.png"]
   showReadingTime = true
@@ -31,6 +33,11 @@ enableRobotsTXT = true
     name = "dev"
     url = "http://dev.to/eduardohitek"
 
+
+[markup.highlight]
+  noClasses = false
+  codeFences = true
+  guessSyntax = false
 
 [taxonomies]
     category = "blog"
@@ -52,17 +59,21 @@ enableRobotsTXT = true
   # And you can even create generic menu
   [[menu.main]]
     identifier = "blog"
+    weight = 1
     name       = "Blog"
     url        = "/posts"
   [[menu.main]]
     identifier = "english"
+    weight = 2
     name       = "Blog English"
     url        = "/posts-en"
   [[menu.main]]
     identifier = "talks"
+    weight = 3
 	name = "Talks"
 	url = "/talks"
   [[menu.main]]
     identifier = "about"
+    weight = 4
 	name = "About"
 	url = "/about"

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal blog of Eduardo Hitek built with [Hugo](https://gohugo.io/). Published at https://eduardohitek.dev/. Uses a forked `hello-friend` theme as a git submodule (`themes/hello-friend`).
+Personal blog of Eduardo Hitek built with [Hugo](https://gohugo.io/). Published at https://eduardohitek.dev/. Uses its own theme, **Fósforo**, versioned directly in `themes/hitek` (no submodule): clean, responsive, amber-phosphor terminal look with light and dark modes.
 
 ## Key Commands
 
@@ -31,7 +31,8 @@ hugo new posts-en/YYYY-MM-DD-post-slug.md
 | `content/talks/` | Talks/presentations |
 | `content/about/` | About page |
 | `static/images/` | Post cover images and assets |
-| `layouts/partials/` | Custom Hugo template overrides |
+| `layouts/partials/` | Site-level template overrides (comments, hreflang/JSON-LD head) |
+| `themes/hitek/` | Fósforo theme: layouts, `assets/css/main.css` (color tokens for light/dark), `assets/js/main.js` |
 
 ## Post Front Matter
 
@@ -54,4 +55,4 @@ Post filenames follow the convention `YYYY-MM-DD-post-slug.md`. Cover images go 
 
 ## Configuration
 
-Main site config is `config.toml`. The theme is loaded from `themes/hello-friend` (a git submodule — run `git submodule update --init` if the theme directory is empty).
+Main site config is `config.toml`. The home intro text comes from `params.heroTitle` / `params.heroText`. Code highlighting uses Chroma CSS classes (`markup.highlight.noClasses = false`), styled by the theme in both modes. UI strings for PT and EN live in `themes/hitek/layouts/partials/str.html` (posts under `posts-en` get the English strings).

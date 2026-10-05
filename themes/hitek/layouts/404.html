@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="wrap">
+  <header class="list-header">
+    <div class="prompt">$ cat {{ .RelPermalink }}</div>
+    <h1 class="list-header__title">404</h1>
+    <p class="intro__text">{{ partial "str.html" (dict "key" "notFound" "page" .) }}</p>
+  </header>
+  {{ with .Site.Taxonomies.tags }}
+    <p class="intro__text">{{ partial "str.html" (dict "key" "notFoundTags" "page" $) }}</p>
+    <ul class="terms">
+      {{- range .ByCount }}
+        <li><a href="{{ .Page.RelPermalink }}">#{{ .Page.Title | lower }} <span class="terms__count">{{ .Count }}</span></a></li>
+      {{- end }}
+    </ul>
+  {{ end }}
+</div>
+{{ end }}

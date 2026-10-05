@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ if eq (partial "lang.html" .) "en" }}en{{ else }}pt-BR{{ end }}" data-theme="{{ .Site.Params.defaultTheme | default "light" }}">
+  <head>
+    {{ block "title" . }}
+      <title>{{ if .IsHome }}{{ .Site.Title }}{{ with .Site.Params.Subtitle }} — {{ . }}{{ end }}{{ else }}{{ .Title }} :: {{ .Site.Title }}{{ end }}</title>
+    {{ end }}
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+    {{ partial "header.html" . }}
+    <main id="main" class="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    {{ partial "goatcounter.html" . }}
+  </body>
+</html>

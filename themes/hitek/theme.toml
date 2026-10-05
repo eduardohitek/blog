@@ -1,0 +1,8 @@
+name = "Fósforo"
+license = "MIT"
+description = "Tema clean e responsivo inspirado em terminais de fósforo âmbar, com modo claro e escuro."
+min_version = "0.134.0"
+
+[author]
+  name = "Eduardo Hitek"
+  homepage = "https://eduardohitek.dev/"

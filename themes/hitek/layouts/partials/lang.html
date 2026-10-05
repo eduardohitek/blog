@@ -1,0 +1,4 @@
+{{- /* Idioma da página: posts-en é inglês, o resto é português. */ -}}
+{{- $lang := "pt" -}}
+{{- if or (eq .Section "posts-en") (eq .Type "posts-en") -}}{{ $lang = "en" }}{{- end -}}
+{{- return $lang -}}

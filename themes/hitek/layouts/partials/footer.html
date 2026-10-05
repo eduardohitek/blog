@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span class="site-footer__copy">{{ partial "icon.html" (dict "name" "invader" "size" 16 "class" "site-footer__invader") }}© {{ now.Year }} {{ .Site.Params.author }}</span>
+    <span class="site-footer__links">
+      {{- range .Site.Params.social }}
+        <a href="{{ .url }}" rel="me noopener" target="_blank">{{ if eq .name "dev" }}dev.to{{ else }}{{ .name }}{{ end }}</a>
+      {{- end }}
+      <a href="{{ "index.xml" | relURL }}">rss</a>
+    </span>
+    <span class="site-footer__made">feito com <a href="https://gohugo.io" rel="noopener" target="_blank">Hugo</a> · EOF</span>
+  </div>
+</footer>

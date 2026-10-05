@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{- $isPost := in (slice "posts" "posts-en") .Type -}}
+{{- $lang := partial "lang.html" . -}}
+<article class="post">
+  <header class="post-header wrap wrap--text">
+    {{ if $isPost }}<div class="post-path">~/{{ .Section }}/<span>{{ path.Base (strings.TrimSuffix "/" .RelPermalink) }}</span></div>{{ end }}
+    <h1 class="post-title">{{ .Title | markdownify }}</h1>
+    {{ if $isPost }}
+    <div class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormatSingle | default "Jan 02, 2006") }}</time>
+      {{ if .Site.Params.showReadingTime }}<span class="post-meta__read">{{ partial "icon.html" (dict "name" "clock" "size" 14) }}{{ .ReadingTime }} {{ .Site.Params.minuteReadingTime | default "min read" }}</span>{{ end }}
+      {{ with .Params.translationURL }}
+        <a class="lang-switch" href="{{ . | relURL }}" hreflang="{{ if eq $lang "en" }}pt-BR{{ else }}en{{ end }}">{{ if eq $lang "en" }}EN{{ else }}PT{{ end }} · <span>{{ partial "str.html" (dict "key" "translation" "page" $) }}</span></a>
+      {{ end }}
+    </div>
+    {{ partial "tags.html" . }}
+    {{ end }}
+  </header>
+
+  {{ with .Params.Cover }}
+  <figure class="post-cover wrap wrap--wide">
+    <div class="crt"><img src="{{ if $.Params.UseRelativeCover }}{{ printf "%s%s" $.RelPermalink . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Params.CoverAlt | plainify | default $.Title }}"></div>
+    {{ with $.Params.CoverCaption }}<figcaption>// {{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+
+  <div class="post-content wrap wrap--text">
+    {{ if and (or .Params.toc .Site.Params.toc) (ne .Params.toc false) }}
+      <aside class="toc"><div class="toc__title">## {{ partial "str.html" (dict "key" "toc" "page" .) }}</div>{{ .TableOfContents }}</aside>
+    {{ end }}
+    {{ .Content }}
+  </div>
+
+  {{ if $isPost }}
+  <footer class="post-footer wrap wrap--text">
+    {{ if or .NextInSection .PrevInSection }}
+    <nav class="post-nav" aria-label="{{ partial "str.html" (dict "key" "otherPosts" "page" .) }}">
+      <div class="post-nav__title">{{ partial "str.html" (dict "key" "otherPosts" "page" .) }}</div>
+      <div class="post-nav__grid">
+        {{ with .PrevInSection }}<a class="post-nav__item" href="{{ .RelPermalink }}"><span class="post-nav__dir">{{ partial "str.html" (dict "key" "prev" "page" $) }}</span><span class="post-nav__name">{{ .Title | markdownify }}</span></a>{{ end }}
+        {{ with .NextInSection }}<a class="post-nav__item post-nav__item--next" href="{{ .RelPermalink }}"><span class="post-nav__dir">{{ partial "str.html" (dict "key" "next" "page" $) }}</span><span class="post-nav__name">{{ .Title | markdownify }}</span></a>{{ end }}
+      </div>
+    </nav>
+    {{ end }}
+    <section class="comments" aria-label="{{ partial "str.html" (dict "key" "comments" "page" .) }}">
+      {{ partial "comments.html" . }}
+    </section>
+  </footer>
+  {{ end }}
+</article>
+{{ end }}

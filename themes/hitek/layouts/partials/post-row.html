@@ -1,0 +1,10 @@
+{{- $p := . -}}
+<article class="post-row">
+  <time class="post-row__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormatList | default "Jan 02, 2006") }}</time>
+  <div class="post-row__body">
+    <h3 class="post-row__title"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
+    {{ with .Description }}<p class="post-row__desc">{{ . | markdownify }}</p>{{ end }}
+    {{ partial "tags.html" . }}
+  </div>
+  {{ if .Site.Params.showReadingTime }}<span class="post-row__read">{{ .ReadingTime }} {{ partial "str.html" (dict "key" "minRead" "page" $p) }}</span>{{ end }}
+</article>

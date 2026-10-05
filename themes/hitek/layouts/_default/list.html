@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="wrap">
+  <header class="list-header">
+    <h1 class="list-header__title">{{ if eq .Kind "term" }}#{{ .Title | lower }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+  </header>
+  {{ $label := printf "%s/" (path.Base (strings.TrimSuffix "/" .RelPermalink)) }}
+  {{ if eq .Kind "term" }}{{ $label = printf "tags/%s/" (path.Base (strings.TrimSuffix "/" .RelPermalink)) }}{{ end }}
+  {{ partial "listing.html" (dict "page" . "pages" .RegularPages "label" $label "featured" false) }}
+</div>
+{{ end }}
