@@ -1,0 +1,19 @@
+{{- /* Textos da interface por idioma. Uso: partial "str.html" (dict "key" "older" "page" .) */ -}}
+{{- $strings := dict
+  "pt" (dict
+    "older" "posts antigos" "newer" "posts recentes" "page" "página"
+    "prev" "← anterior" "next" "próximo →" "otherPosts" "leia outros posts"
+    "files" "arquivos" "new" "novo" "toggle" "Alternar tema claro/escuro"
+    "translation" "read in English" "toc" "índice" "copy" "copiar" "copied" "copiado!"
+    "notFound" "Hmm... essa página não existe." "notFoundTags" "Talvez essas tags ajudem:"
+    "comments" "comentários" "minRead" "min")
+  "en" (dict
+    "older" "older posts" "newer" "newer posts" "page" "page"
+    "prev" "← previous" "next" "next →" "otherPosts" "read other posts"
+    "files" "files" "new" "new" "toggle" "Toggle light/dark theme"
+    "translation" "ler em português" "toc" "contents" "copy" "copy" "copied" "copied!"
+    "notFound" "Hmm... this page seems to be missing." "notFoundTags" "Maybe these tags will help:"
+    "comments" "comments" "minRead" "min")
+-}}
+{{- $lang := partial "lang.html" .page -}}
+{{- index (index $strings $lang) .key -}}

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="wrap">
+  <header class="list-header">
+    <h1 class="list-header__title">{{ .Title | lower }}</h1>
+  </header>
+  <div class="listing__head"><span><span class="prompt">$</span> ls {{ .Data.Plural }}/</span><span>{{ len .Data.Terms }}</span></div>
+  <ul class="terms">
+    {{- range .Data.Terms.Alphabetical }}
+      <li><a href="{{ .Page.RelPermalink }}">#{{ .Page.Title | lower }} <span class="terms__count">{{ .Count }}</span></a></li>
+    {{- end }}
+  </ul>
+</div>
+{{ end }}

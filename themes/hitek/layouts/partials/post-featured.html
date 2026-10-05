@@ -1,0 +1,16 @@
+{{- $p := . -}}
+<article class="post-featured">
+  <a class="post-featured__cover crt" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ if .Params.UseRelativeCover }}{{ printf "%s%s" .RelPermalink .Params.Cover }}{{ else }}{{ .Params.Cover | relURL }}{{ end }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" loading="eager">
+  </a>
+  <div class="post-featured__body">
+    <div class="post-meta">
+      <span class="post-meta__new">● {{ partial "str.html" (dict "key" "new" "page" $p) }}</span>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormatList | default "Jan 02, 2006") }}</time>
+      {{ if .Site.Params.showReadingTime }}<span>{{ .ReadingTime }} {{ .Site.Params.minuteReadingTime | default "min read" }}</span>{{ end }}
+    </div>
+    <h2 class="post-featured__title"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
+    <p class="post-featured__desc">{{ with .Description }}{{ . | markdownify }}{{ else }}{{ .Summary | plainify | truncate 180 }}{{ end }}</p>
+    {{ partial "tags.html" . }}
+  </div>
+</article>

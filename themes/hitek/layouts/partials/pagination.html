@@ -1,0 +1,15 @@
+{{- $p := .paginator -}}
+{{- if gt $p.TotalPages 1 }}
+<nav class="pagination" aria-label="Paginação">
+  <span class="pagination__count">{{ partial "str.html" (dict "key" "page" "page" .page) }} {{ $p.PageNumber }}/{{ $p.TotalPages }}</span>
+  <ol class="pagination__pages">
+    {{- range $p.Pagers }}
+      <li><a href="{{ .URL }}"{{ if eq .PageNumber $p.PageNumber }} class="is-current" aria-current="page"{{ end }}>{{ .PageNumber }}</a></li>
+    {{- end }}
+  </ol>
+  <span class="pagination__nav">
+    {{- if $p.HasPrev }}<a href="{{ $p.Prev.URL }}">← {{ partial "str.html" (dict "key" "newer" "page" .page) }}</a>{{ end }}
+    {{- if $p.HasNext }}<a href="{{ $p.Next.URL }}">{{ partial "str.html" (dict "key" "older" "page" .page) }} →</a>{{ end }}
+  </span>
+</nav>
+{{- end }}

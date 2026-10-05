@@ -1,0 +1,8 @@
+{{- $lang := .Type | default "text" -}}
+<div class="code" data-lang="{{ $lang }}">
+  <div class="code__bar">
+    <span class="code__lang">{{ $lang }}</span>
+    <button class="code__copy" type="button" hidden data-copied="{{ partial "str.html" (dict "key" "copied" "page" .Page) }}">{{ partial "str.html" (dict "key" "copy" "page" .Page) }}</button>
+  </div>
+  {{- transform.Highlight .Inner .Type .Options }}
+</div>

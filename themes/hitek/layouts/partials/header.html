@@ -1,0 +1,24 @@
+{{- $section := .Section | default "" -}}
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="logo" href="{{ .Site.Params.Logo.logoHomeLink | default "/" | relURL }}" aria-label="{{ .Site.Title }}, página inicial">
+      <span class="logo__user">eduardo</span><span class="logo__at">@</span><span class="logo__host">hitek</span><span class="logo__path">:~{{ with $section }}/{{ . }}{{ end }}$</span>
+      <span class="logo__cursor" aria-hidden="true"></span>
+    </a>
+    <nav class="nav" aria-label="Menu principal">
+      <ul class="nav__list">
+        {{- $current := . }}
+        {{- range .Site.Menus.main }}
+          {{- $active := or ($current.IsMenuCurrent "main" .) (strings.HasPrefix $current.RelPermalink (printf "%s/" (strings.TrimSuffix "/" .URL))) }}
+          <li><a class="nav__link{{ if $active }} is-active{{ end }}" href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name | lower }}</a></li>
+        {{- end }}
+      </ul>
+      {{- if .Site.Params.enableThemeToggle }}
+      <button class="theme-toggle" type="button" aria-label="{{ partial "str.html" (dict "key" "toggle" "page" .) }}" title="{{ partial "str.html" (dict "key" "toggle" "page" .) }}">
+        {{ partial "icon.html" (dict "name" "moon" "size" 18 "class" "theme-toggle__moon") }}
+        {{ partial "icon.html" (dict "name" "sun" "size" 18 "class" "theme-toggle__sun") }}
+      </button>
+      {{- end }}
+    </nav>
+  </div>
+</header>

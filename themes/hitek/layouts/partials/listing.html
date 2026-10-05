@@ -1,0 +1,17 @@
+{{- /* Lista paginada de posts. Recebe (dict "page" . "pages" $pages "label" "posts/" "featured" true) */ -}}
+{{- $page := .page -}}
+{{- $paginator := $page.Paginate .pages -}}
+<section class="listing">
+  <div class="listing__head">
+    <span><span class="prompt">$</span> ls -t {{ .label }}</span>
+    <span>{{ len .pages }} {{ partial "str.html" (dict "key" "files" "page" $page) }}</span>
+  </div>
+  {{- range $i, $p := $paginator.Pages }}
+    {{- if and $.featured (eq $paginator.PageNumber 1) (eq $i 0) $p.Params.Cover }}
+      {{ partial "post-featured.html" $p }}
+    {{- else }}
+      {{ partial "post-row.html" $p }}
+    {{- end }}
+  {{- end }}
+  {{ partial "pagination.html" (dict "page" $page "paginator" $paginator) }}
+</section>
