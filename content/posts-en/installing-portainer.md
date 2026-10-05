@@ -7,6 +7,7 @@ cover: "/images/portainer/3.png"
 images: ["/images/portainer/3.png"]
 coverAlt: "Portainer's initial page with the existing containers"
 coverCaption: "Portainer's initial page with the existing containers"
+translationURL: "/posts/2021-07-17-instalando-portainer/"
 tags: ["docker", "portainer", "tutorial", "english"]
 categories: ["general", "docker", "tutorial", "english"]
 ---
@@ -20,7 +21,7 @@ Just perform the following steps:
 ```
 docker volume create portainer_data
 ```
-1) Run the docker command to create the container and inform some initial configuration parameters:
+2) Run the docker command to create the container and inform some initial configuration parameters:
 ```
 docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
 ```

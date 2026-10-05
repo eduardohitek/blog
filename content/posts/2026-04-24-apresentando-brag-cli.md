@@ -3,8 +3,8 @@ title: "Apresentando o brag-cli: nunca mais esqueça suas conquistas profissiona
 date: 2026-04-24T10:00:00-03:00
 draft: false
 description: "Apresentando o brag-cli: ferramenta open-source em Go para registrar conquistas profissionais e gerar relatórios de performance review com IA."
-cover: "images/2026-04-24-apresentando-brag-cli/1.png"
-images: ["images/2026-04-24-apresentando-brag-cli/1.png"]
+cover: "images/2026-04-24-apresentando-brag-cli/1.jpg"
+images: ["images/2026-04-24-apresentando-brag-cli/1.jpg"]
 coverAlt: "Terminal mostrando o brag-cli em uso"
 coverCaption: "brag-cli - Track every win. Own your career."
 tags: ["cli", "carreira", "go", "golang", "produtividade", "ia"]

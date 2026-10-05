@@ -1,5 +1,5 @@
 ---
-title: "Tutorial com driver oficial para de Go para MongoDB"
+title: "Tutorial do driver oficial de Go para MongoDB"
 date: 2021-07-03T08:42:44-03:00
 draft: false
 description: "Tutorial completo de MongoDB com Go usando o driver oficial. Aprenda a conectar, inserir, consultar e manipular dados no MongoDB com Golang."
@@ -7,6 +7,7 @@ cover: "/images/mongodb_golang/1.jpeg"
 images: ["/images/mongodb_golang/1.jpeg"]
 coverAlt: "Logo do Golang + MongoDB"
 coverCaption: "Logo do Golang + MongoDB"
+translationURL: "/posts-en/ya-mongodb-tutorial/"
 tags: ["mongodb", "golang", "tutorial"]
 categories: ["general", "database", "golang", "tutorial"]
 ---
@@ -55,7 +56,7 @@ Para testar a conexão com o mongo, podemos efetuar a chamada da função `Ping`
         }
     }
 
-Para os próximos exemplos, Eu criei um DB chamado `civilact` que contém uma coleção chamada `heroes` e adicionei os seguintes documentos:
+Para os próximos exemplos, eu criei um DB chamado `civilact` que contém uma coleção chamada `heroes` e adicionei os seguintes documentos:
 
     {
         "_id" : ObjectId("5d0574824d9f7ff15e989171"),
@@ -82,7 +83,7 @@ Para os próximos exemplos, Eu criei um DB chamado `civilact` que contém uma co
         "signed" : false
     }
 
-Afim de trabalhar com esses documentos, resolvi criar uma `struct` que contém todos os campos e adicionei as suas tags json.
+A fim de trabalhar com esses documentos, resolvi criar uma `struct` que contém todos os campos e adicionei as suas tags json.
 
     type Hero struct {
         Name   string `json:"name"`
@@ -117,7 +118,7 @@ Nossa função faz o seguinte:
 
 1. Cria um array de `Hero` para receber o retorno da pesquisa;
 2. Cria uma variável do tipo `collection` que representa nossa coleção dentro do DB;
-3. Solicita para a `colection` que retorne um cursor com os seus elementos baseado no filtro informado (nesse caso, como o filtro é vazio então será retornados todos os documentos);
+3. Solicita para a `collection` que retorne um cursor com os seus elementos baseado no filtro informado (nesse caso, como o filtro é vazio então será retornados todos os documentos);
 4. Atribui os documentos para o nosso array de `Hero` o retorna;
 
 Se executarmos dentro da nossa função main, o resultado será:
@@ -207,9 +208,9 @@ Por último, imagine que o Gavião Arqueiro mudou de ideia e agora quer assinar 
 
 Então é isso! As operações CRUD foram escritas e agora os Heróis da Marvel podem decidir o seu próprio destino.
 
-Todo o código desses exemplos está disponível [aqui](http://github.com/eduardohitek/mongodb-go-example).
+Todo o código desses exemplos está disponível [aqui](https://github.com/eduardohitek/mongodb-go-example).
 Repositório do driver oficial [repo](https://github.com/mongodb/mongo-go-driver)
-Documentação oficial [docs](https://godoc.org/go.mongodb.org/mongo-driver/mongo)
+Documentação oficial [docs](https://pkg.go.dev/go.mongodb.org/mongo-driver/mongo)
 
 Qualquer dúvida ou sugestão, me pinga lá no [twitter](https://twitter.com/eduardohitek).
 

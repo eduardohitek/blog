@@ -1,5 +1,5 @@
 ---
-title: "Efefuando testes de benchmark Em Go"
+title: "Efetuando testes de benchmark em Go"
 date: 2021-07-31T11:24:06-03:00
 draft: false
 description: "Aprenda a escrever e executar benchmarks em Go com o pacote testing. Compare a performance de diferentes implementações com resultados precisos."
@@ -7,11 +7,12 @@ cover: "/images/go-benchmark/1.jpg"
 images: ["/images/go-benchmark/1.jpg"]
 coverAlt: "Efetuando testes de benchmarking em Go"
 coverCaption: "Como saber se aquela função ou lib é mais performática ou não?"
+translationURL: "/posts-en/benchmark-in-go/"
 tags: ["golang", "tutorial", "testes"]
 categories: ["golang", "tutorial", "testes"]
 ---
 
-Teste de Benchmark em programação é o ato de comparar de forma eficiente a performance entre algoritmos, de forma a escolher qual abordagem a seguir em determinados cenários. Podemos aplicar também na hora de decidir quais bibliotecas externas ou frameworks e a se usar, além de avaliarmos se alguma refatoração vai trazer maléfico para nosso código.
+Teste de Benchmark em programação é o ato de comparar de forma eficiente a performance entre algoritmos, de forma a escolher qual abordagem a seguir em determinados cenários. Podemos aplicar também na hora de decidir quais bibliotecas externas ou frameworks e a se usar, além de avaliarmos se alguma refatoração vai trazer malefícios para nosso código.
 
 A linguagem Go já tem por padrão ferramentas para esses tipos de testes, tornando a experiência mais amigável e sem a necessidade de ferramentas externas.
 
@@ -53,7 +54,7 @@ func palindromeFromEnd(str string) bool {
    return true
 }
 ```
-1) **palindromeFromMiddle**: percorre apartir dos caracteres do meio até o início/fim da string.
+3) **palindromeFromMiddle**: percorre a partir dos caracteres do meio até o início/fim da string.
 ```
 func palindromeFromMiddle(str string) bool {
    runes := []rune(str)
@@ -110,9 +111,9 @@ PASS
 ok      github.com/eduardohitek/go-benchmark-example    4.563s
 ```
 
-Seguindo o argumento que informamos, cada função de benchmark é executada por 1 segundo e temos 2 informações para cada: Quantidade de execuções e tempo médio de cada execução. Para esse exemplo de palavra não palíndroma, e quando a diferença estava entre a 1a e última letra o **BenchmarkPalindromeFromEnd_Banana** foi mais performático pois teve a médio de tempo por operação menor.
+Seguindo o argumento que informamos, cada função de benchmark é executada por 1 segundo e temos 2 informações para cada: Quantidade de execuções e tempo médio de cada execução. Para esse exemplo de palavra não palíndroma, e quando a diferença estava entre a 1a e última letra o **BenchmarkPalindromeFromEnd_Banana** foi mais performático pois teve a média de tempo por operação menor.
 
-O no próximo exemplo usamos uma palavra palíndroma maior (*nomelgibsonisacasinosbiglemon*):
+No próximo exemplo usamos uma palavra palíndroma maior (*nomelgibsonisacasinosbiglemon*):
 ```
 ~/dev/eduardohitek/go-benchmark-example main*
 ❯ go test -bench=. -benchtime=1s

@@ -7,6 +7,7 @@ cover: "/images/portainer/3.png"
 images: ["/images/portainer/3.png"]
 coverAlt: "Tela inicial do Portainer com os containers existentes"
 coverCaption: "Tela inicial do Portainer com os containers existentes"
+translationURL: "/posts-en/installing-portainer/"
 tags: ["docker", "portainer", "tutorial"]
 categories: ["general", "docker", "tutorial"]
 ---
