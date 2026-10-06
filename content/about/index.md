@@ -9,27 +9,27 @@ tags: ["about", "sobre"]
 categories: ["about", "sobre"]
 ---
 
-Atualmente atuando como **Senior Software Engineer** na [Trybe][link1], sou um desenvolvedor de software desde 2006, graduado em Ciência da Computação pela Unifor, morando em Brasília-DF e com foco para desenvolvimento de soluções Backend.
+Sou **Senior Software Engineer** na [Stone][stone], desenvolvedor de software desde 2006, graduado em Ciência da Computação pela Unifor e morando em Brasília-DF, com foco em desenvolvimento Backend.
 
-Tenho uma trajetória profissional diversificada, incluindo a construção de softwares para instituições financeiras de renome, como Rabobank, Scotiabank e Banco do Brasil, além de colaborar com a Trybe Fintech.
+Hoje trabalho em um time de Banking responsável pela gestão de pagamentos instantâneos (**Pix**) e de cobranças feitas via maquininhas (**POS**). Minha stack atual é **Go**, **MongoDB**, **Kafka**, **Postgres**, **RabbitMQ** e **CDC** (Change Data Capture).
 
-Durante esses projetos, pude aplicar minha expertise em uma variedade de linguagens de programação, incluindo **Go**, **Elixir**, **Java**, **JavaScript** e **Python**. Destaco minha capacidade de desenvolver soluções robustas e escaláveis, garantindo a integridade e a eficiência do código.
+Tenho uma trajetória diversificada, incluindo a construção de software para instituições financeiras como Rabobank, Scotiabank e Banco do Brasil, além da [Trybe][trybe], onde atuei como Senior Software Engineer e Tech Lead na Trybe Fintech.
 
-Além disso obtive experiência na integração de sistemas, tanto via de forma síncrona quanto de forma assíncrona através Arquitetura baseada em eventos.
+Ao longo desses projetos trabalhei com **Go**, **Elixir**, **Java**, **JavaScript** e **Python**, e com integração de sistemas tanto síncrona quanto assíncrona, usando arquitetura orientada a eventos.
 
-Nos últimos anos também assumi o papel de **Liderança técnica** do time, no qual fiquei responsável por guiar a equipe de desenvolvimento de software, garantindo a entrega de produtos de alta qualidade, promovendo a colaboração e o crescimento profissional dos membros da equipe e impulsionando o sucesso do projeto.
+Também assumi o papel de **Liderança técnica**, guiando times de desenvolvimento na entrega de produtos de qualidade e apoiando o crescimento profissional das pessoas do time.
 
 ----
 
-Currently working as a **Senior Software Engineer** at [Trybe][link1], I have been a software developer since 2006, with a degree in Computer Science from Unifor, residing in Brasília-DF, and focusing on Backend solutions development.
+I'm a **Senior Software Engineer** at [Stone][stone]. I've been a software developer since 2006, hold a degree in Computer Science from Unifor, live in Brasília-DF (Brazil), and focus on backend development.
 
-I have a diverse professional background, including building software for renowned financial institutions such as Rabobank, Scotiabank, and Banco do Brasil, in addition to collaborating with Trybe Fintech.
+I currently work on a Banking team responsible for managing instant payments (**Pix**) and charges made through card machines (**POS**). My current stack is **Go**, **MongoDB**, **Kafka**, **Postgres**, **RabbitMQ**, and **CDC** (Change Data Capture).
 
-Throughout these projects, I have applied my expertise in a variety of programming languages, including **Go**, **Elixir**, **Java**, **JavaScript**, and **Python**. I emphasize my ability to develop robust and scalable solutions, ensuring code integrity and efficiency.
+My background includes building software for financial institutions such as Rabobank, Scotiabank, and Banco do Brasil, as well as [Trybe][trybe], where I worked as a Senior Software Engineer and Tech Lead at Trybe Fintech.
 
-Furthermore, I have gained experience in system integration, both synchronously and asynchronously, through an event-driven architecture.
+Throughout these projects I've worked with **Go**, **Elixir**, **Java**, **JavaScript**, and **Python**, and with both synchronous and asynchronous system integration using event-driven architecture.
 
-In recent years, I have also taken on the role of **Technical Leadership** within the team, where I have been responsible for guiding the software development team, ensuring the delivery of high-quality products, promoting collaboration, fostering professional growth among team members, and driving project success.
+I've also taken on **Technical Leadership** roles, guiding development teams to deliver high-quality products and supporting the professional growth of the people on the team.
 
-
-[link1]:https://www.betrybe.com/
+[stone]:https://www.stone.com.br/
+[trybe]:https://www.betrybe.com/
