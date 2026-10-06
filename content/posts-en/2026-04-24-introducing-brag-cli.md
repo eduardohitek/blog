@@ -35,7 +35,7 @@ brew install eduardohitek/tap/brag
 
 **Via Go:**
 ```bash
-go install github.com/eduardohitek/brag@latest
+go install github.com/eduardohitek/brag-cli@latest
 ```
 
 **Manual binary download:** grab the latest binary from the [releases page](https://github.com/eduardohitek/brag-cli/releases/latest).
