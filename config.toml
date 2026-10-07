@@ -35,7 +35,6 @@ enableRobotsTXT = true
     name = "linkedin"
     url = "https://www.linkedin.com/in/eduardohitek/
 
-
 [markup.highlight]
   noClasses = false
   codeFences = true
