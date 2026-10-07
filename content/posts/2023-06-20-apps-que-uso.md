@@ -12,6 +12,8 @@ categories: ["dicas", "apps"]
 translationURL: "/posts-en/2023-06-20-apps-that-i-use/"
 ---
 
+> **Atualização:** já existe a [versão 2026 desta lista](/posts/2026-10-06-apps-que-uso-2026/), com o que mudou desde então.
+
 Gosto de ler posts sobre as ferramentas/apps que as pessoas usam no dia a dia, seja para trabalho ou pessoal. Sempre acabo descobrindo alguma ferramenta nova ou alguma funcionalidade que não conhecia. Por isso resolvi fazer um post com os apps que uso no dia a dia. A ideia é atualizar esse post a cada ano, para ver como as coisas mudam.
 
 * [**iTerm2**](https://iterm2.com/downloads/stable/latest): Tem sido minha escolha de terminal para o macOS por anos e continua me atendendo até hoje. Porém tenho acompanhado o desenvolvimento do [Rio](https://raphamorim.io/rio/), uma alternativa que está sendo feita pelo [@raphamorims](https://twitter.com/raphamorims).
