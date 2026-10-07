@@ -33,7 +33,7 @@ enableRobotsTXT = true
     url = "https://dev.to/eduardohitek"
   [[params.social]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/eduardohitek/
+    url = "https://www.linkedin.com/in/eduardohitek/"
 
 [markup.highlight]
   noClasses = false
