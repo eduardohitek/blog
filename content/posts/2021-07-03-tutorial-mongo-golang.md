@@ -12,6 +12,8 @@ tags: ["mongodb", "golang", "tutorial"]
 categories: ["general", "database", "golang", "tutorial"]
 ---
 
+> **Atualização:** o driver mudou bastante na v2. Veja a [versão atualizada deste tutorial](/posts/2026-10-06-tutorial-mongo-golang-v2/).
+
 Após anos usando drivers feitos pela comunidade como [mgo](https://github.com/go-mgo/mgo) e [globalsign/mgo](https://github.com/globalsign/mgo), ano passado a MongoDB [anunciou](https://engineering.mongodb.com/post/considering-the-community-effects-of-introducing-an-official-golang-mongodb-driver) que estava construindo a sua própria solução. No último março foi [lançada](https://www.mongodb.com/blog/post/official-mongodb-go-driver-now-ga-and-ready-for-production) a versão 1.0.0. Então vamos ver como efetuar operações simples utilizando o driver oficial.
 
 Para início, você precisa obter o driver usando o comando `go get`:
