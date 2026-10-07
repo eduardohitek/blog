@@ -13,8 +13,8 @@ enableRobotsTXT = true
   defaultTheme = "light"
   enableThemeToggle = true
   author = "Eduardo Hitek"
-  description = "Blog sobre Go, MongoDB, carreira em engenharia de software e ferramentas para devs."
-  heroTitle = "Escrevo sobre Go, MongoDB e a vida de quem constrói backend desde 2006."
+  description = "Blog sobre Go, carreira em engenharia de software e ferramentas para devs."
+  heroTitle = "Escrevo sobre Go e a vida de quem constrói backend desde 2006."
   heroText = "Senior Software Engineer em Brasília. Tutoriais, ferramentas e notas sobre carreira em engenharia de software, em português e inglês."
   twitterCreator = "@eduardohitek"
   images = ["/img/android-chrome-512x512.png"]
@@ -31,7 +31,9 @@ enableRobotsTXT = true
   [[params.social]]
     name = "dev"
     url = "https://dev.to/eduardohitek"
-
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/eduardohitek/"
 
 [markup.highlight]
   noClasses = false
